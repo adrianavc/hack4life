@@ -1,7 +1,7 @@
 :root{
 
 	/*bg*/
-	
+
 	/*colors*/
 
 	/*sizes*/
@@ -16,7 +16,7 @@ html{
 }
 
 *{
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	max-width: 100%;
 }
 
@@ -82,7 +82,7 @@ h6{ font-size: 1.15rem; }
 
 h1,h2,h3,h4,h5,h6{
 	margin: 0.5rem 0;
-	font-family: "Raleway", sans serif; 
+	font-family: "Raleway", sans serif;
 	opacity: 1;
 }
 
@@ -1477,24 +1477,24 @@ h3{
 h1{position: relative;}
 
 h1:before, h1:after{
-    
+
     height: 100%;
     width: 20px;
     display: block;
     position: absolute;
-   
-    
+
+
 }
 
 h1:before {
-	padding-top: 20px; 
+	padding-top: 20px;
 	content: "<";
     left: -10px;
     border-right: none;
 }
 
 h1:after {
-	padding-top: 20px; 
+	padding-top: 20px;
 	content: ">";
     right: -10px;
     border-left: none;
@@ -3626,4 +3626,14 @@ h1:after {
 	.msg p{
 		font-size: 13px;
 	}
+}
+
+.logoSlides {
+	height: 350px;
+	text-align: center;
+}
+.logoSlides img {
+	display: inline-block;
+ 	margin: auto;
+	height: 100%;
 }
