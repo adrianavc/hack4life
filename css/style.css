@@ -1,7 +1,7 @@
 :root{
 
 	/*bg*/
-	
+
 	/*colors*/
 
 	/*sizes*/
@@ -16,7 +16,7 @@ html{
 }
 
 *{
-	box-sizing: border-box;	
+	box-sizing: border-box;
 	max-width: 100%;
 }
 
@@ -82,7 +82,7 @@ h6{ font-size: 1.15rem; }
 
 h1,h2,h3,h4,h5,h6{
 	margin: 0.5rem 0;
-	font-family: "Raleway", sans serif; 
+	font-family: "Open Sans", sans serif;
 	opacity: 1;
 }
 
@@ -296,6 +296,11 @@ body > .main{
 	padding-bottom: 20px;
 	font-size: 0.8rem;
 	color: rgba(255, 255, 255, 0.4);
+}
+
+.organizers-logo {
+	height: 50px;
+	text-align: inline;
 }
 
 .footer-social{
@@ -1477,24 +1482,24 @@ h3{
 h1{position: relative;}
 
 h1:before, h1:after{
-    
+
     height: 100%;
     width: 20px;
     display: block;
     position: absolute;
-   
-    
+
+
 }
 
 h1:before {
-	padding-top: 20px; 
+	padding-top: 20px;
 	content: "<";
     left: -10px;
     border-right: none;
 }
 
 h1:after {
-	padding-top: 20px; 
+	padding-top: 20px;
 	content: ">";
     right: -10px;
     border-left: none;
@@ -3626,4 +3631,71 @@ h1:after {
 	.msg p{
 		font-size: 13px;
 	}
+}
+
+.logoSlides {
+	height: 350px;
+	text-align: center;
+}
+.logoSlides img {
+	display: inline-block;
+ 	margin: auto;
+	height: 100%;
+}
+
+#whatishh {
+	height: auto;
+}
+
+.challenges {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.challenge-headers {
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#eventlocation {
+	height: auto;
+}
+
+.text_event {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #B72331;
+}
+
+.day-number{
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.challenge-title {
+	margin-top:40px;
+}
+
+.challenge-image {
+	height: 50px;
+	margin-top: 25px;
+}
+
+#agenda-button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
 }
