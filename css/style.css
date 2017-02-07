@@ -82,7 +82,7 @@ h6{ font-size: 1.15rem; }
 
 h1,h2,h3,h4,h5,h6{
 	margin: 0.5rem 0;
-	font-family: "Raleway", sans serif;
+	font-family: "Open Sans", sans serif;
 	opacity: 1;
 }
 
@@ -296,6 +296,11 @@ body > .main{
 	padding-bottom: 20px;
 	font-size: 0.8rem;
 	color: rgba(255, 255, 255, 0.4);
+}
+
+.organizers-logo {
+	height: 50px;
+	text-align: inline;
 }
 
 .footer-social{
@@ -3636,4 +3641,52 @@ h1:after {
 	display: inline-block;
  	margin: auto;
 	height: 100%;
+}
+
+#whatishh {
+	height: 350px;
+}
+
+.challenges {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+}
+
+.challenge-headers {
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#eventlocation {
+	height: auto;
+}
+
+.text_event {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #B72331;
+}
+
+.day-number{
+	font-size: 45px;
+	font-weight: bolder;
+}
+
+.challenge-title {
+	margin-top:40px;
+}
+
+.challenge-image {
+	height: 50px;
+	margin-top: 25px;
+}
+
+#agenda-button {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
